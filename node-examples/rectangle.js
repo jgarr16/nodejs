@@ -13,7 +13,7 @@ module.exports = (x,y,callback) => {
             callback(new Error("Dimensions must be > 0, but you used: "
                 +x+" and "+y+". Change the "+change+" and run it again."),
             null), 
-            2000);  
+            10);  
     } else {
         setTimeout(() => 
             callback(null,
