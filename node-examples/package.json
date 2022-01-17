@@ -8,5 +8,5 @@
     "start": "node index"
   },
   "author": "John Garrigues",
-  "license": "ISC"
+  "license": "MIT"
 }
