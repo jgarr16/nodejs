@@ -4,8 +4,7 @@ module.exports = (x,y,callback) => {
             callback(new Error("Dimensions must be greater than zero: "
                 +x+" and "+y+"."),
             null), 
-            2000);
-        
+            2000);  
     } else {
         setTimeout(() => 
             callback(null,
