@@ -15,8 +15,8 @@ function solveRect(l,b){
     });
 }
 
-solveRect(2,4);
-solveRect(3,5);
-solveRect(0,3);
-solveRect(4,-3);
+// solveRect(2,4);
+// solveRect(3,5);
+solveRect(0,-3);
+// solveRect(4,-3);
 // console.log("This statement sits after the call to the rectangle module.");
