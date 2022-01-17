@@ -1,4 +1,4 @@
-var rect = require('./rectangle');
+const rect = require('./rectangle');
 
 function solveRect(l,b){
     console.log("Solving for rectangle with l = "+l+" and b = "+b+".");
@@ -13,10 +13,10 @@ function solveRect(l,b){
                 +l+" and b = "+b+" is "+rectangle.perimeter()+".");
         }
     });
-    console.log("This statement sits after the call to the rectangle module.");
 }
 
 solveRect(2,4);
 solveRect(3,5);
 solveRect(0,3);
 solveRect(4,-3);
+// console.log("This statement sits after the call to the rectangle module.");
