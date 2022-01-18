@@ -2,7 +2,7 @@ const rect = require('./rectangle');
 const circle = require('./circle');
 
 function solveRect(l,b){
-    console.log("Solving for rectangle with l = "+l+" and b = "+b+".");
+    console.log("Solving for rectangle with length = "+l+" and breadth = "+b+".");
 
     rect(l,b,(err, rectangle) => {
         if (err) {
@@ -23,7 +23,7 @@ function solveCirc(a){
 
 // solveRect(2,4);
 // solveRect(3,5);
-solveRect(2,3);
+solveRect(-5,3);
 // solveRect(4,-3);
-solveCirc();
+// solveCirc();
 // console.log("This statement sits after the call to the rectangle module.");
